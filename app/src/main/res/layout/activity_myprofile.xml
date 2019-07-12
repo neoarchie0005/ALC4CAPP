@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CFD8DC"
+    tools:context=".MyProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/my_pf_pic"
+            style="@style/listItem_image"
+            android:rotation="90">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <TextView style="@style/listItem_name" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/listItem_track" />
+
+        <TextView style="@style/listItem_country" />
+
+        <TextView style="@style/listItem_email" />
+
+        <TextView style="@style/listItem_phone" />
+
+    </LinearLayout>
+
+</LinearLayout>
